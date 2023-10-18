@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR DE IDADE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <section>
+    <div class="container">
+        <div class="caixa">
+            <h1>Formulário de Cadastro</h1>
+            <P>Ano de Nascimento 
+                <input type="number" name="textano" id="textano" min="0"><br></P>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p> 
+                <input type="button" value="verificar" id="verificar" onclick="verificar()">
+            </p>
+       </div>
+       <div id="res">
+        <p>Preencha os dados acimas para verificar!</p>
+       </div>
+    </div>
+    </section>
+    <footer>01
+        <p>&copy; AdrielFelix</p>
+    </footer>       
+    <script src="script.js"></script>
+</body>
+</html>
