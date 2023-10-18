@@ -1,0 +1,27 @@
+body{
+    background: rgb(58, 61, 63);
+    font: normal 15pt Arial;
+    
+
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 450px;
+    background: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 10vh;
+}
+h1{
+    text-align: center;
+}
+footer{
+    color: rgb(62, 17, 17);
+    font-style: italic;
+    text-align: center;
+    
+
+
+}
